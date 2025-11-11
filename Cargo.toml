@@ -22,7 +22,9 @@ facet-reflect = { version = "0.31", default-features = false, features = [
 ] }
 
 facet-deserialize = { version = "0.31", default-features = false }
-facet-serialize = { version = "0.31", default-features = false }
+facet-serialize = { version = "0.31", default-features = false, features = [
+    "alloc",
+] }
 
 itoa = "1.0.15"
 lexical-parse-float = "1.0.5"
